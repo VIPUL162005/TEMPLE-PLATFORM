@@ -1,0 +1,681 @@
+{
+  "poojaBooking": {
+    "generalServices": [
+      {
+        "name": "Car Pooja",
+        "inTemple": "$51",
+        "outWeekday": "NA",
+        "outWeekend": "NA",
+        "route": "/car-pooja"
+      },
+      {
+        "name": "Archana",
+        "inTemple": "$51",
+        "outWeekday": "NA",
+        "outWeekend": "NA",
+        "route": "/archana"
+      },
+      {
+        "name": "Abhishekam\n(Temple scheduled days only)",
+        "inTemple": "$51",
+        "outWeekday": "NA",
+        "outWeekend": "NA",
+        "route": "/abhishekam"
+      }
+    ],
+    "homams": [
+      {
+        "name": "Ganapathi Homam/Havan",
+        "inTemple": "$101",
+        "outWeekday": "$201 + Travel exp",
+        "outWeekend": "$251 + Travel exp",
+        "route": "/pooja/ganapathi-homam-havan"
+      },
+      {
+        "name": "Navagraha Homam/Havan",
+        "inTemple": "$101",
+        "outWeekday": "$201 + Travel exp",
+        "outWeekend": "$251 + Travel exp",
+        "route": "/pooja/navagraha-homam-havan"
+      },
+      {
+        "name": "Mrithyunjaya Homam",
+        "inTemple": "$101",
+        "outWeekday": "$201 + Travel exp",
+        "outWeekend": "$251 + Travel exp",
+        "route": "/pooja/mrithyunjaya-homam"
+      },
+      {
+        "name": "Sri Saraswathi Homam/Havan",
+        "inTemple": "$101",
+        "outWeekday": "$201 + Travel exp",
+        "outWeekend": "$251 + Travel exp",
+        "route": "/pooja/sri-saraswathi-homam-havan"
+      },
+      {
+        "name": "Nakshatra Shanthi Homam",
+        "inTemple": "$101",
+        "outWeekday": "$201 + Travel exp",
+        "outWeekend": "$251 + Travel exp",
+        "route": "/pooja/nakshatra-shanthi-homam"
+      },
+      {
+        "name": "Sri Rudra Homam/Havan",
+        "inTemple": "$101",
+        "outWeekday": "$201 + Travel exp",
+        "outWeekend": "$251 + Travel exp",
+        "route": "/pooja/sri-rudra-homam-havan"
+      }
+    ],
+    "samkaras": [
+      {
+        "name": "Namakaran",
+        "inTemple": "$101",
+        "outWeekday": "$201 + Travel exp",
+        "outWeekend": "$251 + Travel exp",
+        "route": "/pooja/namakaran"
+      },
+      {
+        "name": "Annaprasanam",
+        "inTemple": "$101",
+        "outWeekday": "$201 + Travel exp",
+        "outWeekend": "$251 + Travel exp",
+        "route": "/pooja/annaprasanam"
+      },
+      {
+        "name": "Mundan",
+        "inTemple": "$101",
+        "outWeekday": "$201 + Travel exp",
+        "outWeekend": "$251 + Travel exp",
+        "route": "/pooja/mundan"
+      },
+      {
+        "name": "Engagement/Sagai",
+        "inTemple": "$101",
+        "outWeekday": "$201 + Travel exp",
+        "outWeekend": "$251 + Travel exp",
+        "route": "/pooja/engagement-sagai"
+      },
+      {
+        "name": "Vivah(Wedding)",
+        "inTemple": "$500",
+        "outWeekday": "$201 + Travel exp",
+        "outWeekend": "$251 + Travel exp",
+        "route": "/pooja/vivah-wedding"
+      },
+      {
+        "name": "Bhoomi Pooja",
+        "inTemple": "$101",
+        "outWeekday": "$201 + Travel exp",
+        "outWeekend": "$251 + Travel exp",
+        "route": "/pooja/bhoomi-pooja"
+      },
+      {
+        "name": "Gruha Pravesh",
+        "inTemple": "$101",
+        "outWeekday": "$201 + Travel exp",
+        "outWeekend": "$251 + Travel exp",
+        "route": "/pooja/gruha-pravesh"
+      },
+      {
+        "name": "Gund-Moola Shanti Pooja",
+        "inTemple": "$101",
+        "outWeekday": "$201 + Travel exp",
+        "outWeekend": "$251 + Travel exp",
+        "route": "/pooja/gund-moola-shanti-pooja"
+      },
+      {
+        "name": "Vaastu Shanti",
+        "inTemple": "$101",
+        "outWeekday": "$201 + Travel exp",
+        "outWeekend": "$251 + Travel exp",
+        "route": "/pooja/vaastu-shanti"
+      },
+      {
+        "name": "Sundarkand Path",
+        "inTemple": "$101",
+        "outWeekday": "$201 + Travel exp",
+        "outWeekend": "$251 + Travel exp",
+        "route": "/pooja/sundarkand-path"
+      }
+    ],
+    "footerText": "Temple also available for Birthdays, Weddings, Anniversaries, Pooja, Mundan, Havan & More. For any bookings or more information please call Karan Goyal@604-543-9442, Mohan Moudgil@ 778-822-4501"
+  },
+  "carPooja": {
+    "title": "Car Pooja",
+    "image": "/assets/Car image.svg",
+    "aboutHeading": "About",
+    "aboutText": "Bless Your New Car In the Right Way Bought a new car? Ready to go for the first drive? But, don't forget to bless your new car first with divine gifts. Here's the right way to do the car puja: When a new car is bought, it is blessed with some divine gifts and a puja is performed before going for the first drive.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 151
+      }
+    ],
+    "termsAndConditions": "T&C:\\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!"
+  },
+  "archana": {
+    "title": "Archana",
+    "image": "/assets/archana_pooja.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform an Archana (special, personal, abbreviated puja) invoking individual guidance and blessings. A short but powerful prayer and offering to the deity.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 51
+      }
+    ],
+    "termsAndConditions": "T&C:\\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!"
+  },
+  "abhishekam": {
+    "title": "Abhishekam",
+    "image": "/assets/abhishekam_pooja.png",
+    "aboutHeading": "About",
+    "aboutText": "Abhishekam is a ritualistic bathing of the deity with materials like milk, yogurt, honey, ghee, and pure water, accompanied by the chanting of sacred mantras. It is performed to purify the soul and receive divine grace.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 51
+      }
+    ],
+    "termsAndConditions": "T&C:\\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!"
+  },
+  "header": {
+    "leftLinks": [
+      {
+        "label": "Home",
+        "route": "/"
+      },
+      {
+        "label": "About Us",
+        "href": "/#about-us"
+      },
+      {
+        "label": "Events",
+        "href": "/#upcoming-events"
+      },
+      {
+        "label": "Booking",
+        "route": "/booking"
+      }
+    ],
+    "rightLinks": [
+      {
+        "label": "Gallery",
+        "href": "/#gallery"
+      },
+      {
+        "label": "Health",
+        "href": "#"
+      },
+      {
+        "label": "Contact Us",
+        "href": "/#contact-us"
+      },
+      {
+        "label": "Donate",
+        "href": "#"
+      }
+    ],
+    "logoAlt": "Lakshmi Narayan Mandir Logo"
+  },
+  "footer": {
+    "newsletterText": "Sign up for our newsletter to receive the new releases directly to your inbox.",
+    "quickLinks": [
+      {
+        "label": "About Us",
+        "href": "#about-us"
+      },
+      {
+        "label": "Events",
+        "href": "#upcoming-events"
+      },
+      {
+        "label": "Contact Us",
+        "href": "#contact-us"
+      },
+      {
+        "label": "Reviews",
+        "href": "#"
+      }
+    ],
+    "usefulLinks": [
+      {
+        "label": "Donations",
+        "href": "#"
+      },
+      {
+        "label": "Preeti Bhoj",
+        "href": "#"
+      },
+      {
+        "label": "Pooja Booking",
+        "href": "#"
+      },
+      {
+        "label": "Volunteer",
+        "href": "#"
+      }
+    ],
+    "contact": {
+      "address": "8321 140 St, Surrey, BC,<br />V3W 5K9",
+      "email": "info@hindumandirsurrey.com",
+      "phone": "(+1) 604-596-4777"
+    },
+    "timings": [
+      "Sunday :7 Am to 8 Pm",
+      "Mon-Sat :7 Am to 8 Pm"
+    ],
+    "copyright": "© 2026 All Rights Reserved"
+  },
+  "ganapathi-homam-havan": {
+    "title": "Ganapathi Homam/Havan",
+    "image": "/assets/ganapathi-homam-havan.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform the sacred Ganapathi Homam/Havan seeking divine blessings. This pooja is conducted with utmost devotion by our experienced priests following traditional rituals.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 101
+      },
+      {
+        "label": "Outside Services (Weekdays)",
+        "value": "out_weekday",
+        "baseCost": 201
+      },
+      {
+        "label": "Outside Service (Weekends & Holidays)",
+        "value": "out_weekend",
+        "baseCost": 251
+      }
+    ],
+    "termsAndConditions": "T&C:\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!\nTravel expenses are additional for outside services."
+  },
+  "navagraha-homam-havan": {
+    "title": "Navagraha Homam/Havan",
+    "image": "/assets/navagraha-homam-havan.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform the sacred Navagraha Homam/Havan seeking divine blessings. This pooja is conducted with utmost devotion by our experienced priests following traditional rituals.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 101
+      },
+      {
+        "label": "Outside Services (Weekdays)",
+        "value": "out_weekday",
+        "baseCost": 201
+      },
+      {
+        "label": "Outside Service (Weekends & Holidays)",
+        "value": "out_weekend",
+        "baseCost": 251
+      }
+    ],
+    "termsAndConditions": "T&C:\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!\nTravel expenses are additional for outside services."
+  },
+  "mrithyunjaya-homam": {
+    "title": "Mrithyunjaya Homam",
+    "image": "/assets/mrithyunjaya-homam.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform the sacred Mrithyunjaya Homam seeking divine blessings. This pooja is conducted with utmost devotion by our experienced priests following traditional rituals.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 101
+      },
+      {
+        "label": "Outside Services (Weekdays)",
+        "value": "out_weekday",
+        "baseCost": 201
+      },
+      {
+        "label": "Outside Service (Weekends & Holidays)",
+        "value": "out_weekend",
+        "baseCost": 251
+      }
+    ],
+    "termsAndConditions": "T&C:\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!\nTravel expenses are additional for outside services."
+  },
+  "sri-saraswathi-homam-havan": {
+    "title": "Sri Saraswathi Homam/Havan",
+    "image": "/assets/sri-saraswathi-homam-havan.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform the sacred Sri Saraswathi Homam/Havan seeking divine blessings. This pooja is conducted with utmost devotion by our experienced priests following traditional rituals.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 101
+      },
+      {
+        "label": "Outside Services (Weekdays)",
+        "value": "out_weekday",
+        "baseCost": 201
+      },
+      {
+        "label": "Outside Service (Weekends & Holidays)",
+        "value": "out_weekend",
+        "baseCost": 251
+      }
+    ],
+    "termsAndConditions": "T&C:\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!\nTravel expenses are additional for outside services."
+  },
+  "nakshatra-shanthi-homam": {
+    "title": "Nakshatra Shanthi Homam",
+    "image": "/assets/nakshatra-shanthi-homam.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform the sacred Nakshatra Shanthi Homam seeking divine blessings. This pooja is conducted with utmost devotion by our experienced priests following traditional rituals.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 101
+      },
+      {
+        "label": "Outside Services (Weekdays)",
+        "value": "out_weekday",
+        "baseCost": 201
+      },
+      {
+        "label": "Outside Service (Weekends & Holidays)",
+        "value": "out_weekend",
+        "baseCost": 251
+      }
+    ],
+    "termsAndConditions": "T&C:\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!\nTravel expenses are additional for outside services."
+  },
+  "sri-rudra-homam-havan": {
+    "title": "Sri Rudra Homam/Havan",
+    "image": "/assets/sri-rudra-homam-havan.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform the sacred Sri Rudra Homam/Havan seeking divine blessings. This pooja is conducted with utmost devotion by our experienced priests following traditional rituals.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 101
+      },
+      {
+        "label": "Outside Services (Weekdays)",
+        "value": "out_weekday",
+        "baseCost": 201
+      },
+      {
+        "label": "Outside Service (Weekends & Holidays)",
+        "value": "out_weekend",
+        "baseCost": 251
+      }
+    ],
+    "termsAndConditions": "T&C:\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!\nTravel expenses are additional for outside services."
+  },
+  "namakaran": {
+    "title": "Namakaran",
+    "image": "/assets/namakaran.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform the sacred Namakaran seeking divine blessings. This pooja is conducted with utmost devotion by our experienced priests following traditional rituals.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 101
+      },
+      {
+        "label": "Outside Services (Weekdays)",
+        "value": "out_weekday",
+        "baseCost": 201
+      },
+      {
+        "label": "Outside Service (Weekends & Holidays)",
+        "value": "out_weekend",
+        "baseCost": 251
+      }
+    ],
+    "termsAndConditions": "T&C:\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!\nTravel expenses are additional for outside services."
+  },
+  "annaprasanam": {
+    "title": "Annaprasanam",
+    "image": "/assets/annaprasanam.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform the sacred Annaprasanam seeking divine blessings. This pooja is conducted with utmost devotion by our experienced priests following traditional rituals.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 101
+      },
+      {
+        "label": "Outside Services (Weekdays)",
+        "value": "out_weekday",
+        "baseCost": 201
+      },
+      {
+        "label": "Outside Service (Weekends & Holidays)",
+        "value": "out_weekend",
+        "baseCost": 251
+      }
+    ],
+    "termsAndConditions": "T&C:\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!\nTravel expenses are additional for outside services."
+  },
+  "mundan": {
+    "title": "Mundan",
+    "image": "/assets/mundan.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform the sacred Mundan seeking divine blessings. This pooja is conducted with utmost devotion by our experienced priests following traditional rituals.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 101
+      },
+      {
+        "label": "Outside Services (Weekdays)",
+        "value": "out_weekday",
+        "baseCost": 201
+      },
+      {
+        "label": "Outside Service (Weekends & Holidays)",
+        "value": "out_weekend",
+        "baseCost": 251
+      }
+    ],
+    "termsAndConditions": "T&C:\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!\nTravel expenses are additional for outside services."
+  },
+  "engagement-sagai": {
+    "title": "Engagement/Sagai",
+    "image": "/assets/engagement-sagai.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform the sacred Engagement/Sagai seeking divine blessings. This pooja is conducted with utmost devotion by our experienced priests following traditional rituals.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 101
+      },
+      {
+        "label": "Outside Services (Weekdays)",
+        "value": "out_weekday",
+        "baseCost": 201
+      },
+      {
+        "label": "Outside Service (Weekends & Holidays)",
+        "value": "out_weekend",
+        "baseCost": 251
+      }
+    ],
+    "termsAndConditions": "T&C:\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!\nTravel expenses are additional for outside services."
+  },
+  "vivah-wedding": {
+    "title": "Vivah(Wedding)",
+    "image": "/assets/vivah-wedding.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform the sacred Vivah(Wedding) seeking divine blessings. This pooja is conducted with utmost devotion by our experienced priests following traditional rituals.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 500
+      },
+      {
+        "label": "Outside Services (Weekdays)",
+        "value": "out_weekday",
+        "baseCost": 201
+      },
+      {
+        "label": "Outside Service (Weekends & Holidays)",
+        "value": "out_weekend",
+        "baseCost": 251
+      }
+    ],
+    "termsAndConditions": "T&C:\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!\nTravel expenses are additional for outside services."
+  },
+  "bhoomi-pooja": {
+    "title": "Bhoomi Pooja",
+    "image": "/assets/bhoomi-pooja.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform the sacred Bhoomi Pooja seeking divine blessings. This pooja is conducted with utmost devotion by our experienced priests following traditional rituals.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 101
+      },
+      {
+        "label": "Outside Services (Weekdays)",
+        "value": "out_weekday",
+        "baseCost": 201
+      },
+      {
+        "label": "Outside Service (Weekends & Holidays)",
+        "value": "out_weekend",
+        "baseCost": 251
+      }
+    ],
+    "termsAndConditions": "T&C:\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!\nTravel expenses are additional for outside services."
+  },
+  "gruha-pravesh": {
+    "title": "Gruha Pravesh",
+    "image": "/assets/gruha-pravesh.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform the sacred Gruha Pravesh seeking divine blessings. This pooja is conducted with utmost devotion by our experienced priests following traditional rituals.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 101
+      },
+      {
+        "label": "Outside Services (Weekdays)",
+        "value": "out_weekday",
+        "baseCost": 201
+      },
+      {
+        "label": "Outside Service (Weekends & Holidays)",
+        "value": "out_weekend",
+        "baseCost": 251
+      }
+    ],
+    "termsAndConditions": "T&C:\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!\nTravel expenses are additional for outside services."
+  },
+  "gund-moola-shanti-pooja": {
+    "title": "Gund-Moola Shanti Pooja",
+    "image": "/assets/gund-moola-shanti-pooja.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform the sacred Gund-Moola Shanti Pooja seeking divine blessings. This pooja is conducted with utmost devotion by our experienced priests following traditional rituals.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 101
+      },
+      {
+        "label": "Outside Services (Weekdays)",
+        "value": "out_weekday",
+        "baseCost": 201
+      },
+      {
+        "label": "Outside Service (Weekends & Holidays)",
+        "value": "out_weekend",
+        "baseCost": 251
+      }
+    ],
+    "termsAndConditions": "T&C:\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!\nTravel expenses are additional for outside services."
+  },
+  "vaastu-shanti": {
+    "title": "Vaastu Shanti",
+    "image": "/assets/vaastu-shanti.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform the sacred Vaastu Shanti seeking divine blessings. This pooja is conducted with utmost devotion by our experienced priests following traditional rituals.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 101
+      },
+      {
+        "label": "Outside Services (Weekdays)",
+        "value": "out_weekday",
+        "baseCost": 201
+      },
+      {
+        "label": "Outside Service (Weekends & Holidays)",
+        "value": "out_weekend",
+        "baseCost": 251
+      }
+    ],
+    "termsAndConditions": "T&C:\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!\nTravel expenses are additional for outside services."
+  },
+  "sundarkand-path": {
+    "title": "Sundarkand Path",
+    "image": "/assets/sundarkand-path.png",
+    "aboutHeading": "About",
+    "aboutText": "Perform the sacred Sundarkand Path seeking divine blessings. This pooja is conducted with utmost devotion by our experienced priests following traditional rituals.",
+    "options": [
+      {
+        "label": "In the temple",
+        "value": "In the temple",
+        "baseCost": 101
+      },
+      {
+        "label": "Outside Services (Weekdays)",
+        "value": "out_weekday",
+        "baseCost": 201
+      },
+      {
+        "label": "Outside Service (Weekends & Holidays)",
+        "value": "out_weekend",
+        "baseCost": 251
+      }
+    ],
+    "termsAndConditions": "T&C:\\nBook Your Puja And Select Your Preferred Date. Call Temple To Confirm Priest Availability!\\nTravel expenses are additional for outside services."
+  },
+  "preetiBhojSponsor": {
+    "title": "Sponsor Preeti Bhoj",
+    "description": "Offer a meal with love to devotees and receive divine blessings.",
+    "impactCounter": "Serving 200+ devotees daily",
+    "options": [
+      {
+        "id": "full-day",
+        "label": "Full Day Bhojan Sponsorship",
+        "value": 501
+      },
+      {
+        "id": "half-day",
+        "label": "Half Day Sponsorship",
+        "value": 251
+      },
+      {
+        "id": "custom",
+        "label": "Custom Amount",
+        "value": "custom"
+      }
+    ],
+    "paymentMethods": ["UPI", "Card", "Net Banking"]
+  }
+}

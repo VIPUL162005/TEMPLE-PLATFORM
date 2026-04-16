@@ -1,0 +1,31 @@
+{
+  "name": "temple-react",
+  "version": "1.0.0",
+  "description": "Temple Platform Frontend in React",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^5.3.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-react": "^7.18.0",
+    "@tailwindcss/cli": "^4.2.2",
+    "autoprefixer": "^10.4.27",
+    "babel-loader": "^8.2.5",
+    "concurrently": "^9.2.1",
+    "css-loader": "^5.2.7",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.2",
+    "postcss": "^8.5.9",
+    "style-loader": "^2.0.0",
+    "tailwindcss": "^4.2.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.3"
+  }
+}

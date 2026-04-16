@@ -1,0 +1,111 @@
+:root {
+  --color-primary-red: #C23632;
+  --color-primary-red-hover: #e02f2f;
+  --color-accent-gold: #fbc02d;
+  --color-accent-gold-light: #fff59d;
+  --color-text-main: #333333;
+  --color-text-muted: #666666;
+  --color-bg-light: #F7F4EA;
+  --color-bg-white: #ffffff;
+
+  --font-heading: "Cinzel", serif;
+  --font-body: "Outfit", sans-serif;
+  --font-overlock: "Overlock", sans-serif;
+  --font-rosario: "Rosario", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-times: "Times New Roman", Times, serif;
+
+  --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 10px 20px rgba(0, 0, 0, 0.08);
+  --shadow-strong: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text-main);
+  background-color: var(--color-bg-light);
+  line-height: 1.6;
+  overflow-x: hidden;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M54.627 0l.83.83v58.34h-58.34l-.83-.83L0 54.628v-58.34h58.34l.83.83z' fill='%23f5edda' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+/* Retaining complex custom styling */
+.top-maroon-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.top-maroon-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 490px;
+  background-color: var(--color-primary-red);
+  z-index: -1;
+}
+
+.header-bg-symbols {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 490px;
+  background-image: url('/assets/bg-symbols.svg');
+  background-repeat: repeat;
+  background-position: left top;
+  background-size: auto;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.services-bg-symbols {
+  background-image: url('/assets/bg-symbols.svg');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 600px;
+}
+
+.card-overlay-gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background: linear-gradient(to top, rgba(204, 30, 30, 0.9) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Scrapbook effects */
+.gallery-item {
+  transition: transform 0.4s ease, z-index 0s;
+}
+.gallery-item:nth-child(1) {
+  transform: rotate(-3deg);
+  margin-top: 20px;
+}
+.gallery-item:nth-child(2) {
+  transform: rotate(4deg);
+  margin-top: -20px;
+  height: 340px;
+}
+.gallery-item:nth-child(3) {
+  transform: rotate(-2deg);
+  margin-top: 10px;
+}
+.gallery-item:nth-child(4) {
+  transform: rotate(3deg);
+  margin-top: 30px;
+}
+.gallery-item:hover {
+  transform: scale(1.05) rotate(0deg) !important;
+  z-index: 10;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
