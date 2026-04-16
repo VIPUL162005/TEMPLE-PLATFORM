@@ -22,7 +22,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="bg-[#C23632] bg-[url('/assets/bg-symbols.svg')] bg-repeat bg-[size:500px] bg-center text-white pt-[80px] pb-[60px] relative z-[2]">
+      <div className="bg-[#C23632] bg-[url('../public/assets/bg-symbols.svg')] bg-repeat bg-[size:500px] bg-center text-white pt-[80px] pb-[60px] relative z-[2]">
         <div className="w-full max-w-[1349px] mx-auto px-[5%] relative z-[2]">
           <div className="grid grid-cols-[1fr_1fr] md:grid-cols-3 min-[1100px]:grid-cols-5 gap-[40px] mb-[60px]">
             <div className="footer-col">
